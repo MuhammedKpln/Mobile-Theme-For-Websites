@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.0.min.js"></script>
+    	<script type="text/javascript">
+	$(function(){
+		var a = 0;
+		$('.buton').click(function(){
+			if ( a == 0 ){
+				$(this).text('MENÜYÜ GİZLE');
+				a++;
+			} else {
+				$(this).text('MENÜYÜ AÇ');
+				a = 0;
+			}
+			$(this).next('ul').slideToggle(500);
+		});
+	});
+	</script>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">@import url("reset.css")</style>
+    <title>Mobile Responsive tasarim</title>
+</head>
+<body>
+   <!-- Header -->
+    <div class="header">
+        <div class="logo"><span class="glyphicon glyphicon-align-justify bar" aria-hidden="true"></span> <p>Minecraft Araç Deposu </p> <span class="glyphicon glyphicon-search ara" aria-hidden="true"></span>
+    </div>
+    </div>
+           
+
+    <div class="menu">
+       <div class="buton">Menü</div>
+        <ul>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Menu</a></li>
+        </ul>
+    </div>
+     <!-- Icerik -->
+    <div class="icerik-alani">
+        <div class="resim">
+            <img src="http://i.hizliresim.com/kE7Q1y.png">
+            <span class="tarih">28 agustos 2012</span>
+        </div>
+        <div class="baslik">
+            <p>Minecraft Survival Games Plugini (Tier Sistemi, Top10,Oylama)</p>         <span class="glyphicon glyphicon-chevron-right git" aria-hidden="true"></span>   
+        </div>
+    </div>
+    
+        <div class="icerik-alani">
+        <div class="resim">
+            <img src="http://i.hizliresim.com/kE7Q1y.png">
+            <span class="tarih">28 agustos 2012</span>
+        </div>
+        <div class="baslik">
+            <p>Minecraft Survival Games Plugini (Tier Sistemi, Top10,Oylama)</p>         <span class="glyphicon glyphicon-chevron-right git" aria-hidden="true"></span>   
+        </div>
+    </div>
+    
+        <div class="icerik-alani">
+        <div class="resim">
+            <img src="http://i.hizliresim.com/kE7Q1y.png">
+            <span class="tarih">28 agustos 2012</span>
+        </div>
+        <div class="baslik">
+            <p>Minecraft Survival Games Plugini (Tier Sistemi, Top10,Oylama)</p>         <span class="glyphicon glyphicon-chevron-right git" aria-hidden="true"></span>   
+        </div>
+    </div>
+    
+        <div class="icerik-alani">
+        <div class="resim">
+            <img src="http://i.hizliresim.com/kE7Q1y.png">
+            <span class="tarih">28 agustos 2012</span>
+        </div>
+        <div class="baslik">
+            <p>Minecraft Survival Games Plugini (Tier Sistemi, Top10,Oylama)</p>         <span class="glyphicon glyphicon-chevron-right git" aria-hidden="true"></span>   
+        </div>
+    </div>
+</body>
+</html>
